@@ -1,0 +1,11 @@
+=begin
+Wed Nov 23, 2011
+ruby 1.9.2
+
+215 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
+What is the sum of the digits of the number 21000?
+
+typed at into irb and had my solution. Very easy.
+=end
+
+puts (2 ** 1000).to_s.split(//).map {|x| x.to_i}.inject(:+)
