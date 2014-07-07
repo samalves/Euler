@@ -1,4 +1,1 @@
-Explanation
-===========
-
-Quick solutions I've written to solve simple problems. 
+Toying around with languages by doing Project Euler problems.
